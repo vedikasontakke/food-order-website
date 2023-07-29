@@ -1,0 +1,162 @@
+/*
+Author : Vedika Sontakke
+Theme : food order website admin
+*/
+
+*{
+    margin:0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper{
+    width: 80%;
+    padding: 1%;
+    margin: 0 auto;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.clearfix{
+    float: none;
+    clear: both;
+}
+
+.tbl-full{
+    width: 100%;
+}
+
+.tbl-30{
+   width: 30%;
+}
+
+table tr th{
+    border-bottom: 1px solid black;
+    padding: 1%;
+    text-align: left;
+}
+
+table tr td{
+    padding: 1%;
+}
+
+/* Add Admin Button */
+.btn-primary{
+    background-color: #1e65ff;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.btn-primary:hover{
+    background-color: #3742fa;
+}
+
+/* Update Admin Button */
+.btn-secondary{
+    background-color: #7bed9f;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+.btn-secondary:hover{
+    background-color: #2ed573;
+}
+
+/* Delete Admin Button */
+.btn-danger{
+    background-color: #ff6b81;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+.btn-danger:hover{
+    background-color: #ff4757;
+}
+
+.success{
+    color: #2ed573;
+}
+
+.error{
+    color: #ff4757;
+}
+
+/* CSS For menu*/
+
+.menu{
+    border-bottom: 1px solid grey;
+    padding: 1%;
+}
+
+.menu ul{
+    list-style-type: none;
+}
+.menu ul li{
+    display: inline;     /* for menu in horizontal*/
+    padding: 1%;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #ff6b81;
+}
+
+.menu ul li a:hover{
+    color: #ff4757;
+}
+
+/* css for main content*/
+.main-content{
+    background-color: #f1f2f6;
+    padding: 8% 0;
+    padding-bottom: 10%;
+}
+
+.main-content h1{
+    padding-bottom: 1%;
+}
+
+.col-4{
+    width: 18%;
+    background-color: white;
+    margin: 1%;
+    padding: 2%;
+    float: left;   /* for horizontal boxes*/
+}
+
+/* CSS For footer*/
+
+.footer {
+    background-color: #ff4757;
+    color: white;
+}
+
+
+
+/* CSS for Login */
+
+.login{
+    border: 1px solid grey;
+    width: 20%;
+    margin: 10% auto;
+    padding: 2%;
+    background-color: rgb(191, 228, 228);
+}
+
+.login-form{
+
+    margin-left: 20%;
+}
